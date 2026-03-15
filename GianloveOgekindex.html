@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Untuk Kamu ❤️</title>
+<style>
+body{
+    background: pink;
+    text-align:center;
+    font-family: Arial;
+}
+
+h1{
+    margin-top:100px;
+}
+
+button{
+    padding:15px 30px;
+    font-size:18px;
+    background:red;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Hai Sayang ❤️</h1>
+<p>Aku punya sesuatu untuk kamu...</p>
+
+<button onclick="tampil()">Klik Aku</button>
+
+<p id="pesan"></p>
+
+<script>
+function tampil(){
+document.getElementById("pesan").innerHTML =
+"Aku sangat beruntung punya kamu. Terima kasih sudah selalu ada ❤️";
+}
+</script>
+
+</body>
+</html>
